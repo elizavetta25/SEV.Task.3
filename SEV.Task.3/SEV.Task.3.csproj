@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>SEV.Task._3</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\MainBG.jpg" />
+    <None Remove="Images\Task1.jpg" />
+    <None Remove="Images\Task2.jpg" />
+    <None Remove="Images\Task3.jpg" />
+    <None Remove="Images\Task4.jpg" />
+    <None Remove="Images\Task5.jpeg" />
+    <None Remove="Images\Task6.jpg" />
+    <None Remove="Images\Task7.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.1.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\MainBG.jpg" />
+    <Resource Include="Images\Task1.jpg" />
+    <Resource Include="Images\Task2.jpg" />
+    <Resource Include="Images\Task3.jpg" />
+    <Resource Include="Images\Task4.jpg" />
+    <Resource Include="Images\Task5.jpeg" />
+    <Resource Include="Images\Task6.jpg" />
+    <Resource Include="Images\Task7.jpg" />
+  </ItemGroup>
+
+</Project>
